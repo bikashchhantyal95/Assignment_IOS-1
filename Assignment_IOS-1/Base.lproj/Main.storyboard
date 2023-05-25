@@ -52,8 +52,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="getAnimeNames:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pff-X5-xfk"/>
-                                    <action selector="getFootbalTeamInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z4k-Hm-JuJ"/>
+                                    <action selector="getSportsData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0dF-X0-j5Y"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -15,4 +15,12 @@ class ViewController: UIViewController {
     }
     
 
+    @IBAction func getSportsData(_ sender: Any) {
+        let url = "https://v3.football.api-sports.io/teams?id=1"
+        let header = "x-apisports-key"
+        let authToken = "d69036aadf632739eccdb08c7821cb77"
+        Task{
+            print(await API_Helper.fetchData(urlString: url, authToken: authToken, header: header)!)
+        }
+    }
 }
